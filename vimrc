@@ -1,4 +1,8 @@
 syntax on
+set autoindent
+set smartindent
+set tabstop=4
+set shiftwidth=4
 set number
 set relativenumber
 
@@ -23,6 +27,9 @@ set cursorline
 :command! Fuck w !sudo tee %
 
 map <F2> :set cursorline!<CR>
+
+:command! Hex %!xxd
+:command! Nohex %!xxd -r
 
 if &term =~ '^screen'
 	" tmux knows the extended mouse mode
