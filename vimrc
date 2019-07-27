@@ -19,7 +19,7 @@ else
 endif
 
 set mouse+=a
-set background=dark	"just in case
+"set background=dark	"just in case
 set laststatus=2
 set cursorline
 
@@ -36,7 +36,7 @@ if &term =~ '^screen'
 	set ttymouse=xterm2
 endif
 "Nice dark theme
-colo space-vim-dark
+"colo space-vim-dark
 
 " that dank status line stuff
 set statusline=
